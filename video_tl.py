@@ -6,7 +6,7 @@ import os
 
 def main():
 	# Create a directory for the current time
-	os.chdir('/home/pi/projects/video_tl')
+	os.chdir('/home/pi/projects/pi_timelapse')
 	dir = time.strftime('%Y_%m_%d_%H_%M_%S')
 	#print('Creating directory ' + dir)
 	os.mkdir(dir)
